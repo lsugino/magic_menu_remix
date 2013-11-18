@@ -1,177 +1,77 @@
+
 body {
-	/*text-align: center;*/
-	font-family: 'Signika Negative', sans-serif;
-	font-weight: bold;
-	margin: 20px;
+  font-family: 'Signika Negative', sans-serif;
+  text-align: center;
+  margin: 20px;
+  background-color: white;
+  font-weight: bold;
 }
 
-#welcome {
-	display: inline;
-	margin-bottom: 60px;
-	font-size: 47px;
-	text-align: center;
+.container {
+  margin: 20px auto;
+  width: 400px;
+  padding: 0px 20px 20px 20px;
 }
 
-.nav {
-    display: inline;
-    float: right;
-    margin: 0 1.7%;
-    padding: 0 2%;
-    margin-bottom: 0;
-}
-/*.nav {
-	font-size: 18px;
-  padding: 0 2%;
-}*/
+### LOGIN ####################
 
-.title {
-    display: inline;
-    float: left;
-    margin: 0 auto;
+.login {
+  margin: 20px auto;
+  width: 300px;
+  padding: 24px 20px 20px 20px;
+  background: #B8B8B8;
 }
 
-/*.title {
-	display: inline-block;
-	text-align: right;
-	float: left; 
-	margin: 0 auto;
-}*/
-
-/****NAV LIST************************************/
-
-.nav_list {
-    display: inline;
-    float: right;
-    list-style: none;
-}
-/*.nav_list {
-	text-align: right;
-	float: right; 
-	display: inline-block;
-	list-style: none;
-}*/
-
-#nav_item {
-    display: inline;
+input {
+  width: 250px;
+  border-radius: 6px;
+  border: 1px solid #A0A0A0;
+  padding-left: 7px;
 }
 
-/*#nav_item {
-	display: inline-block;
-}*/
+### MENU ####################
 
-#nav_item a {
-	padding: 2px;
+#menu-form {
+  display: none;
 }
 
-/****ITEM PAGE*************************************/
-
-#menu_type {
-  margin-right: 300px;
-}
-
-
-/****POST ITS*************************************/
-
-#directions {
-	margin-bottom: 4px;
-}
-
-.postit {
-	float: left;
-	display: block;
-	margin: auto; width:20%;
+#awesome_menu {
+  text-decoration: none;
+  font-size: 27px;
   text-align: left;
-  margin-left: 30px;
-  padding-right: 13px;
-  background-color: #F8F148;
-  margin-right: 40px;
-  margin-top: 30px;
-  margin-bottom: 1000px;
-  border: solid;
-  border-color: #FFCC00;
-  border-width: thin;
 }
 
-/****MENU INPUT*********************************/
-
-#your_menus {
-	font-size: 22px;
-	margin-bottom: 3px;
+nav {
+  display: inline;
+  padding: 10px;
 }
 
-.menu_stuff {
-	text-align: left;
+#menu_item {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
 }
 
-#m_items {
-	margin-left: 18px;
+### DROPDOWN ####################
+
+#item-dropdown-button {
+  cursor: pointer;
 }
 
-#menu_input {
-  width: 260px;
-  height: 30px;
-  padding-left: 8px;
-  font-size: 17px;
-  /*border glow*/
-  border: 2px solid #c4c4c4;
-  border-radius: 7px;
-  margin-top: 30px;
-  margin-bottom: 16px;
+#item-form {
+  display: none;
 }
 
-#menu_input:focus {
-	outline: none;
-  border-color: #9ecaed;
-  box-shadow: 0 0 10px #9ecaed;
+### LINKS ####################
+
+a {
+  color: #993366;
 }
 
-/****BUTTONS*************************************/
-
-#menu_btn {
-  -moz-box-shadow:inset 0px 1px 0px 0px #bbdaf7;
-  -webkit-box-shadow:inset 0px 1px 0px 0px #bbdaf7;
-  box-shadow:inset 0px 1px 0px 0px #bbdaf7;
-  
-  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #79bbff), color-stop(1, #378de5));
-  background:-moz-linear-gradient(top, #79bbff 5%, #378de5 100%);
-  background:-webkit-linear-gradient(top, #79bbff 5%, #378de5 100%);
-  background:-o-linear-gradient(top, #79bbff 5%, #378de5 100%);
-  background:-ms-linear-gradient(top, #79bbff 5%, #378de5 100%);
-  background:linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
-  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#79bbff', endColorstr='#378de5',GradientType=0);
-  
-  background-color:#79bbff;
-  
-  -moz-border-radius:6px;
-  -webkit-border-radius:6px;
-  border-radius:6px;
-  
-  border:1px solid #84bbf3;
-  
-  display:inline-block;
-  color:#ffffff;
-  font-size:17px;
-  font-weight:bold;
-  padding:6px 24px;
-  text-decoration:none;
-  
-  text-shadow:0px 1px 0px #3a93b3;
+a:visited {
+  color: #993366;
 }
 
-#menu_btn:hover {
-    
-  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #378de5), color-stop(1, #79bbff));
-  background:-moz-linear-gradient(top, #378de5 5%, #79bbff 100%);
-  background:-webkit-linear-gradient(top, #378de5 5%, #79bbff 100%);
-  background:-o-linear-gradient(top, #378de5 5%, #79bbff 100%);
-  background:-ms-linear-gradient(top, #378de5 5%, #79bbff 100%);
-  background:linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
-  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#378de5', endColorstr='#79bbff',GradientType=0);
-  
-  background-color:#378de5;
-}
-
-#menu_btn:active {
-  position:relative;
-  top:1px;
+th {
+  text-align: left;
 }
